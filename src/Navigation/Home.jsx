@@ -33,6 +33,8 @@ import uploadsymbol from '../Pictures/uploadsymbol.png';
 import content1 from '../Pictures/content1.png';
 import content2 from '../Pictures/content2.png';
 import CaseStudies from '../Pictures/CaseStudies.png';
+import bluelogo from '../Pictures/Vector.png';
+import greylogo from '../Pictures/greylogo.png';
 
 import './Home.css';
 
@@ -119,8 +121,10 @@ const Home = () => {
         <div className="Hservices1">
           <div className="Hservices11">
           <div className="Hservices111"><p className='Hservices111P'>How we can help you</p></div>
-          <div className="Hservices112"><p>Driving Innovation and Transformation intelligent <p className='Hservices112para'>
-                  AI powered</p></p></div></div>
+          <div className="Hservices112"><p className="Hservices112para1">Driving Innovation and Transformation intelligent <p className='Hservices112para'>
+                  AI powered</p></p>
+                  <p className='Hservices112para2'>Smart Automation, real result . Combat Solutions builds next-gen AI agents that streamline operations,boast productivity and cut costs - from intelligent chatbots to fully aotomated workflows</p></div>
+                  </div>
           <div className="Hservices12">
             <div className="Hservices121">
               
@@ -286,8 +290,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+        <div className='bluedot1'>.</div>
+         <div className='bluedot2'>.</div>
+      <div className='bluedot3'>.</div>
+      <div className='bluedot4'>.</div>
+      <div className='bluedot5'>.</div>
+      <div className='bluedot6'>.</div>
       </div>
+      
      
      {/* <div className='services'>
           
@@ -360,7 +370,7 @@ const Home = () => {
      
 
       </div>
-       
+      
       <div className="sections2">
         <div className="sect">
         <div className="sections21"><b><p className="sections21para1">Testimonials</p></b> </div>
@@ -409,7 +419,7 @@ const Home = () => {
           </div>
       </div>
         </div>
-
+    <div className='greylogo'><img src={greylogo}></img></div>
       </div>
       <div className="section3">
         <div className="section31">
@@ -426,13 +436,15 @@ const Home = () => {
               <input type="file" ref={fileInputRef} placeholder="file" className='inputtag2'></input>
               <div className='section312cont11'>  {/* <FaUpload size={40} color="#4CAF50" style={{ cursor: "pointer" }} onClick={handleIconClick}/> */}
                 <img src={uploadsymbol} style={{ cursor: "pointer" }} className='inputtag3' onClick={handleIconClick}></img>
-                <div><p className='inputtag4'>Attach Your file</p>
+                <div> <p className='inputtag4'>Attach Your file</p>
                 <p className='inputtag5'>up to 10MB</p></div>
                 </div>
             </div>
             <div className="section312cont2">
               <textarea placeholder="Message*" className='Message'></textarea>
               <p className='inputtag6'>We will process your personal information in accordance with our privacy policy</p>
+               <div className='inputtag7'><input  type="checkbox"   /> <p>I would like to be contacted with news and updated about your events and services</p></div>
+               {/* checked={isChecked} onChange={handleCheckboxChange} */}
             </div>
           </div>
           <div className='section313'>
@@ -440,6 +452,7 @@ const Home = () => {
           </div>
 
         </div>
+      <div className='contactimage'><img src={bluelogo}></img></div>
       </div>
     </div>
     

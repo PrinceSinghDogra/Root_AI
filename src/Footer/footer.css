@@ -9,7 +9,8 @@
 .footerImage{
     width:100%;
     height: 800px;
-    background-color: #494f60;
+    background-color: #4d5868 !important;
+    /* background-color: #494f60; */
     filter: brightness(20%);   
     padding-top: 80px; 
     padding-bottom: 80px;
